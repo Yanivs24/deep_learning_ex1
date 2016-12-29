@@ -1,0 +1,12 @@
+
+1) Yes. I got slightly better accuracies:
+   - LogLinear: 86.66% accuracy on dev-test
+   - MPL: 87.66% accuracy on dev-test
+
+   That's make sense since the MLP can represents everythig that the LogLinear can.
+
+2) With unigram features I got:
+    - LogLinear: 71 %
+    - MLP: 72%
+
+3) My MLP learns the XOR function after 25-50 iteration with a suitable learning-rate.
